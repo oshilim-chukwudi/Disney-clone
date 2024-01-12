@@ -29,6 +29,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
+  background-color: #1a1a1a;
 }
 
 h1 {
@@ -58,7 +59,7 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #1a1a1a;
   }
   a:hover {
     color: #747bff;
