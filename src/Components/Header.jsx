@@ -1,10 +1,15 @@
 import React from "react";
-import Logo from "./../Components/Images/Logo.png";
+import logo from "./../assets/Images/logo.png";
+import "./../App.css"; // Import your app.css file
 
 export const Header = () => {
   return (
-    <div>
-      <img src={Logo} className="w-[80px] object-cover" />
+    <div className="img">
+      <img
+        src={logo}
+        className="w-10 h-auto md:w-20 md:h-auto object-cover logo"
+        alt="Logo"
+      />
     </div>
   );
 };
